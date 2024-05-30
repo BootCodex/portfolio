@@ -3,7 +3,7 @@ import { Navbar, Footer } from "../components";
 
 function MainLayout({ children }) {
   return (
-    <div>
+    <div className="bg-[#B4B4B8]">
       <Navbar />
       <div>{children}</div>
       <Footer />
