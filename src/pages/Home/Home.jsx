@@ -9,7 +9,7 @@ const Home = () => {
         <div className="bg-[#fff5f1] px-6 lg:px-16 py-10 rounded-3xl">
           <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
             <div className="flex flex-col gap-5 lg:gap-10">
-              <p className=" text-xl sm:text-4xl md:text-5xl lg:text-4xl font-medium">
+              <p className=" text-lg sm:text-lg md:text-lg lg:text-lg font-medium">
                 At MG Solutions, we're more than just a tech company we're your
                 strategic partner in navigating the ever-evolving landscape of
                 technology. From cutting-edge software development to innovative
@@ -20,7 +20,7 @@ const Home = () => {
                 Learn at your own pace, with lifetime{" "}
                 <br className="lg:flex hidden" /> access on mobile and desktop
               </p>
-              <button className="btn btn-sm px-10 py-3 lg:btn-lg bg-[#524fd5] text-white rounded-full border-none w-36 lg:w-44 capitalize">
+              <button className="btn sm:btn-sm md:btn-md lg:btn-lg sm:px-5 sm:py-2 md:px-2 md:py-2 lg:px-10 lg:py-3 bg-[#524fd5] text-white rounded-full border-none sm:w-24 md:w-36 lg:w-44 capitalize">
                 Get Started
               </button>
             </div>

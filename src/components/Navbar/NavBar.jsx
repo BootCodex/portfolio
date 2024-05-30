@@ -9,7 +9,7 @@ function NavBar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-[#C7C8CC] shadow-md py-4">
+    <header className="sticky top-0 z-50 bg-[#C7C8CC] shadow-md py-3">
       <div className="flex items-center justify-between px-4 py-2 bg-[#C7C8CC]">
         <Link className="flex items-center" to="/">
           <span className="font-logo text-4xl md:text-5xl lg:text-5xl text-white">
